@@ -28,7 +28,8 @@ main() {
       curl -fsSL --proto '=https' --proto-redir '=https' --tlsv1.2 "$1" -o "$2"
     elif command -v wget >/dev/null 2>&1; then
       # No redirects (the repository serves these files directly), so an
-      # https:// address stays https://.
+      # https:// address stays https://. A custom domain for the Pages site
+      # would redirect here: then point BASE at it.
       wget -q --max-redirect=0 -O "$2" "$1"
     else
       die "curl or wget is needed"
