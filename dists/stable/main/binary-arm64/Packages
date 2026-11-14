@@ -1,14 +1,14 @@
 Package: ambersight
-Version: 0.9.0
+Version: 0.10.0
 Architecture: arm64
 Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
-Installed-Size: 57924
+Installed-Size: 58244
 Depends: ffmpeg, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
-Filename: pool/main/ambersight_0.9.0_arm64.deb
-Size: 18207328
-MD5sum: ae855db4ca5c5411b4d94f12c754f872
-SHA1: 48e7d88c6b45152d0a47c960cc38c76387bc187a
-SHA256: da58d436a8c91c131dbef1c328b5d3748d96551607416418cd7d9776097fd78e
+Filename: pool/main/ambersight_0.10.0_arm64.deb
+Size: 18295008
+MD5sum: 7eb9b4173be6999537f9bcced19c2cfe
+SHA1: a278d7767a76180b6e2602c1d0c86cbf7f46f341
+SHA256: a2231f3b440df4cdede1859328a56f3c9c9b3a0358b3b9512ffe36cb7b0437f0
 Section: video
 Priority: optional
 Homepage: https://github.com/HuskerMinion/AmberSight
