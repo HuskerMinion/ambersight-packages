@@ -1,0 +1,40 @@
+Package: ambersight
+Version: 0.8.0
+Architecture: amd64
+Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
+Installed-Size: 61076
+Depends: ffmpeg, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
+Filename: pool/main/ambersight_0.8.0_amd64.deb
+Size: 18978844
+MD5sum: bfeb090d90bb6c774fdd8d8cb0c0d464
+SHA1: 7a5aedbf572249ca509fdd7421ac5ba68f23614c
+SHA256: 3d247e4e660fe8a922fb177ed83014e238b5db5bc26d23e784e9ec2ccf54b15c
+Section: video
+Priority: optional
+Homepage: https://github.com/HuskerMinion/AmberSight
+Description: self-hosted camera recorder (NVR) used from a web browser
+ AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
+ cards, detects motion and objects (built-in AI) and is used from a web
+ browser on port 8090. It runs as the system service "ambersight"; settings
+ are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
+
+Package: ambersight
+Version: 0.9.0
+Architecture: amd64
+Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
+Installed-Size: 61912
+Depends: ffmpeg, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
+Filename: pool/main/ambersight_0.9.0_amd64.deb
+Size: 19212412
+MD5sum: 48de17d43b85547f83bfeae6d75dfcd2
+SHA1: 16d2bfef572918d102ec2d99a053001ca638ccbe
+SHA256: 11f76a8d9b88bb4eec50493d8706946d99811270d39b8945289ca2a244c6ec5b
+Section: video
+Priority: optional
+Homepage: https://github.com/HuskerMinion/AmberSight
+Description: self-hosted camera recorder (NVR) used from a web browser
+ AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
+ cards, detects motion and objects (built-in AI) and is used from a web
+ browser on port 8090. It runs as the system service "ambersight"; settings
+ are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
+
