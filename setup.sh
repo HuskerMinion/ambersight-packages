@@ -18,15 +18,18 @@ main() {
   die() { echo "ambersight setup: $*" >&2; exit 1; }
   [ "$(id -u)" = 0 ] || die "run as root (use sudo)"
 
-  fetch() { # fetch <url> <file>: HTTPS only, TLS 1.2 or newer
+  case "$BASE" in
+    https://*) ;;
+    *) die "the repository address must start with https:// (not $BASE)" ;;
+  esac
+
+  fetch() { # fetch <url> <file>: HTTPS only (curl: TLS 1.2 or newer)
     if command -v curl >/dev/null 2>&1; then
       curl -fsSL --proto '=https' --proto-redir '=https' --tlsv1.2 "$1" -o "$2"
     elif command -v wget >/dev/null 2>&1; then
-      if wget --help 2>&1 | grep -q -- '--https-only'; then
-        wget -q --https-only -O "$2" "$1"
-      else
-        wget -q --secure-protocol=TLSv1_2 -O "$2" "$1"
-      fi
+      # No redirects (the repository serves these files directly), so an
+      # https:// address stays https://.
+      wget -q --max-redirect=0 -O "$2" "$1"
     else
       die "curl or wget is needed"
     fi
