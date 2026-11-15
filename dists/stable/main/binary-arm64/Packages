@@ -19,16 +19,16 @@ Description: self-hosted camera recorder (NVR) used from a web browser
  are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
 
 Package: ambersight
-Version: 0.9.1
+Version: 0.10.1
 Architecture: arm64
 Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
-Installed-Size: 58052
+Installed-Size: 58244
 Depends: ffmpeg, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
-Filename: pool/main/ambersight_0.9.1_arm64.deb
-Size: 18239616
-MD5sum: cc42baaeab4fd363e025fdab71511976
-SHA1: d5bb303431a26564d8941741eb078e5ab64a568d
-SHA256: a1bcab887cf4a69746d4d40febc6109355810978d93155314d5f650523466aff
+Filename: pool/main/ambersight_0.10.1_arm64.deb
+Size: 18301036
+MD5sum: 398ddb5152f1eae7d64529c5ed2c58c4
+SHA1: 9f621a26438108a5061d0e0c3f97fc672986daad
+SHA256: 76b20edd97d94066aae40fa887b978974e891c66569fac6e33887d0bf267e3e7
 Section: video
 Priority: optional
 Homepage: https://github.com/HuskerMinion/AmberSight
