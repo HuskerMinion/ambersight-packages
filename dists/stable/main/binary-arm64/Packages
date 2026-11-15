@@ -1,24 +1,4 @@
 Package: ambersight
-Version: 0.10.0
-Architecture: arm64
-Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
-Installed-Size: 58244
-Depends: ffmpeg, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
-Filename: pool/main/ambersight_0.10.0_arm64.deb
-Size: 18295008
-MD5sum: 7eb9b4173be6999537f9bcced19c2cfe
-SHA1: a278d7767a76180b6e2602c1d0c86cbf7f46f341
-SHA256: a2231f3b440df4cdede1859328a56f3c9c9b3a0358b3b9512ffe36cb7b0437f0
-Section: video
-Priority: optional
-Homepage: https://github.com/HuskerMinion/AmberSight
-Description: self-hosted camera recorder (NVR) used from a web browser
- AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
- cards, detects motion and objects (built-in AI) and is used from a web
- browser on port 8090. It runs as the system service "ambersight"; settings
- are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
-
-Package: ambersight
 Version: 0.10.1
 Architecture: arm64
 Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
@@ -29,6 +9,26 @@ Size: 18301036
 MD5sum: 398ddb5152f1eae7d64529c5ed2c58c4
 SHA1: 9f621a26438108a5061d0e0c3f97fc672986daad
 SHA256: 76b20edd97d94066aae40fa887b978974e891c66569fac6e33887d0bf267e3e7
+Section: video
+Priority: optional
+Homepage: https://github.com/HuskerMinion/AmberSight
+Description: self-hosted camera recorder (NVR) used from a web browser
+ AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
+ cards, detects motion and objects (built-in AI) and is used from a web
+ browser on port 8090. It runs as the system service "ambersight"; settings
+ are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
+
+Package: ambersight
+Version: 0.10.2
+Architecture: arm64
+Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
+Installed-Size: 58372
+Depends: ffmpeg, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
+Filename: pool/main/ambersight_0.10.2_arm64.deb
+Size: 18292196
+MD5sum: b47ed0c01fd7210f8b2eb8c9f2138e64
+SHA1: 97f1ad7303176ded26823b284579c48cf7c6d7d0
+SHA256: 1c642b82290f86099278acf7bb5bc895316d2d4dadefe0cb19420e071f0d77c7
 Section: video
 Priority: optional
 Homepage: https://github.com/HuskerMinion/AmberSight
