@@ -1,24 +1,4 @@
 Package: ambersight
-Version: 0.10.3
-Architecture: amd64
-Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
-Installed-Size: 62764
-Depends: ffmpeg, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
-Filename: pool/main/ambersight_0.10.3_amd64.deb
-Size: 19464800
-MD5sum: 4a7709725a2ce01dd2b75b6e6e5c00df
-SHA1: ad03039bb046e66b6f153b7dd040afac9b1e2fd1
-SHA256: fb405076bb0529c41a3f0c4fa1de093bb450cb49ece3e0e39abf785be0c4ac98
-Section: video
-Priority: optional
-Homepage: https://github.com/HuskerMinion/AmberSight
-Description: self-hosted camera recorder (NVR) used from a web browser
- AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
- cards, detects motion and objects (built-in AI) and is used from a web
- browser on port 8090. It runs as the system service "ambersight"; settings
- are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
-
-Package: ambersight
 Version: 0.11.0
 Architecture: amd64
 Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
@@ -29,6 +9,27 @@ Size: 19731704
 MD5sum: 77248635f6dbfad19f2176aa973a1583
 SHA1: 30bab76d28237d785013831c4dc794f8d4112834
 SHA256: f097d79edf2d013caacc9e1b610b491292429db3b6c7770a07df9d07b53c5062
+Section: video
+Priority: optional
+Homepage: https://github.com/HuskerMinion/AmberSight
+Description: self-hosted camera recorder (NVR) used from a web browser
+ AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
+ cards, detects motion and objects (built-in AI) and is used from a web
+ browser on port 8090. It runs as the system service "ambersight"; settings
+ are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
+
+Package: ambersight
+Version: 0.11.1
+Architecture: amd64
+Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
+Installed-Size: 64808
+Depends: ffmpeg, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
+Suggests: intel-media-va-driver, libmfx-gen1.2
+Filename: pool/main/ambersight_0.11.1_amd64.deb
+Size: 19998804
+MD5sum: f95d80424cdcd26c233b7c0332bb3407
+SHA1: 0655d465be5000a987c1dde29327e7a68b111151
+SHA256: d270f78af7145d17cf85d5bd0c9355f1a31b4b3dba56362bb7e210eec13e4f8f
 Section: video
 Priority: optional
 Homepage: https://github.com/HuskerMinion/AmberSight
