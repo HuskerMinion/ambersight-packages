@@ -1,25 +1,4 @@
 Package: ambersight
-Version: 0.11.1
-Architecture: arm64
-Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
-Installed-Size: 60624
-Depends: ffmpeg, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
-Suggests: intel-media-va-driver, libmfx-gen1.2
-Filename: pool/main/ambersight_0.11.1_arm64.deb
-Size: 18966648
-MD5sum: dc7115bd930d396fe2b982205d13c76f
-SHA1: f066b8820fe1265ab71af3f7a0cc8454be2796e0
-SHA256: be328f4e084e94d028cb1b02a8fafa067075b7ae0bab811a9ebc0a2f0b201b44
-Section: video
-Priority: optional
-Homepage: https://github.com/HuskerMinion/AmberSight
-Description: self-hosted camera recorder (NVR) used from a web browser
- AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
- cards, detects motion and objects (built-in AI) and is used from a web
- browser on port 8090. It runs as the system service "ambersight"; settings
- are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
-
-Package: ambersight
 Version: 0.11.2
 Architecture: arm64
 Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
@@ -31,6 +10,27 @@ Size: 18840008
 MD5sum: d91458afac453de72aea80dc367d27cb
 SHA1: 62e4ef995da9b5d057a54dce351c57792bad2bfa
 SHA256: f9096a3ef474b12f0f0650deae3ca928d510b16fbbb06b18336fac15625b5ea5
+Section: video
+Priority: optional
+Homepage: https://github.com/HuskerMinion/AmberSight
+Description: self-hosted camera recorder (NVR) used from a web browser
+ AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
+ cards, detects motion and objects (built-in AI) and is used from a web
+ browser on port 8090. It runs as the system service "ambersight"; settings
+ are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
+
+Package: ambersight
+Version: 0.11.3
+Architecture: arm64
+Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
+Installed-Size: 60436
+Depends: ffmpeg, curl, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
+Suggests: intel-media-va-driver, libmfx-gen1.2
+Filename: pool/main/ambersight_0.11.3_arm64.deb
+Size: 18938484
+MD5sum: 53b3d23fc02b415333a3200448459706
+SHA1: 964c46311b3922578076414856740287c29233be
+SHA256: 363cb1a211a790ed00572f3b1f946518f903070b92cb430d68131cafe6e9808d
 Section: video
 Priority: optional
 Homepage: https://github.com/HuskerMinion/AmberSight
