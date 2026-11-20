@@ -1,25 +1,4 @@
 Package: ambersight
-Version: 0.12.0
-Architecture: amd64
-Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
-Installed-Size: 65212
-Depends: ffmpeg, curl, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
-Suggests: intel-media-va-driver, libmfx-gen1.2, intel-opencl-icd
-Filename: pool/main/ambersight_0.12.0_amd64.deb
-Size: 20165936
-MD5sum: f65075359c10723beae1518c40f1ee3f
-SHA1: 5a903782642fbb18467499ef7f128e1b3dc85b67
-SHA256: 226206cb18877b62ecfaf735c66f1e6221583cfefc7ccf5316516f59f4d18356
-Section: video
-Priority: optional
-Homepage: https://github.com/HuskerMinion/AmberSight
-Description: self-hosted camera recorder (NVR) used from a web browser
- AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
- cards, detects motion and objects (built-in AI) and is used from a web
- browser on port 8090. It runs as the system service "ambersight"; settings
- are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
-
-Package: ambersight
 Version: 0.12.1
 Architecture: amd64
 Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
@@ -31,6 +10,27 @@ Size: 20193456
 MD5sum: 7b47b7b3fb392cd2cb8791c2130e6a30
 SHA1: fe68ed1f9476e28b8767fe56104175cf28359546
 SHA256: 7ceb9fec4588f930408d50d051f365234bb33c6d6fe835abd533f5de72d3b0f4
+Section: video
+Priority: optional
+Homepage: https://github.com/HuskerMinion/AmberSight
+Description: self-hosted camera recorder (NVR) used from a web browser
+ AmberSight records IP cameras (RTSP, ONVIF, HTTP), USB cameras and capture
+ cards, detects motion and objects (built-in AI) and is used from a web
+ browser on port 8090. It runs as the system service "ambersight"; settings
+ are in /etc/ambersight/config.toml, recordings in /var/lib/ambersight.
+
+Package: ambersight
+Version: 0.12.2
+Architecture: amd64
+Maintainer: HuskerMinion <28571744+HuskerMinion@users.noreply.github.com>
+Installed-Size: 65688
+Depends: ffmpeg, curl, passwd, libc6 (>= 2.39), libstdc++6 (>= 13), libgcc-s1
+Suggests: intel-media-va-driver, libmfx-gen1.2, intel-opencl-icd
+Filename: pool/main/ambersight_0.12.2_amd64.deb
+Size: 20244632
+MD5sum: 35f886f95deaba479c0fb4ab1fbce5ce
+SHA1: ecf5e90bdbe9513aeb4648fe354eafd652c02c70
+SHA256: ec6aa12a3ebe5f7c66312a6463b9fe5ebdb92f0bae4e8de39262d3413ebbf111
 Section: video
 Priority: optional
 Homepage: https://github.com/HuskerMinion/AmberSight
